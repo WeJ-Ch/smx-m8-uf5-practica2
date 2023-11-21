@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      padding-top: 50px;
+      background-color: #f5f5dc;
+      margin: 0;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(169, 169, 169, 0.7);
+      z-index: 3;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .navbar-title {
+      color: black;
+      font-size: 1.5em;
+      margin: 0;
+      border-bottom: 1px solid black;
+    }
+
+    .navbar-links {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .navbar-links a {
+      color: Red;
+      text-decoration: none;
+      font-size: 1em;
+      font-weight: bolder;
+      padding-bottom: 2px;
+      transition: transform 0.3s;
+    }
+
+    .navbar-links a:hover {
+      transform: scale(1.1);
+    }
+
+    .hide-navbar {
+      display: none;
+    }
+
+    .receta-lista {
+      padding: 30px;
+    }
+
+    .receta-item {
+      text-align: left;
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+
+    .receta-item h2 + .receta-item p {
+      margin: 20px 0;
+    }
+
+    .receta-item h2 {
+      font-size: 2.5em;
+    }
+
+    .receta-item img {
+      width: auto;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .list-style {
+      list-style-type: circle;
+    }
+  </style>
+  <title>MASA DE PIZZA</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <h1 class="navbar-title"style="color: black; font-size: 3em; text-align: center">MASA DE PIZZA</h1>
+    <div class="navbar-links">
+      <a href="#intro">Introducción</a>
+      <a href="#info">Pizza nube, tan ligera como su nombre</a>
+      <a href="#ingredientes">Ingredientes</a>
+      <a href="#pasos">Paso a paso</a>
+      <a href="../index.html">Volver a la página principal</a>
+    </div>
+  </div>
+
+  <div class="receta-lista">
+    <div class="receta-item">
+      <h2 id="intro" style="margin-top: 40px">Introducción</h2>
+      <p><span style="font-size: 2em; font-weight: bold">L</span>os ingredientes habituales de una masa de pizza son <b>harina, agua, levadura y sal</b>. Sin embargo, esta receta no es precisamente lo que se dice baja en carbohidratos, por lo que no es muy adecuada si se sigue algún tipo de dieta baja en estos nutrientes. Por suerte, existe una forma de disfrutar de la pizza evitando este problema: con una receta de masa de pizza que quizás nunca hubieras imaginado.</p>
+      <p>Sigue leyendo porque vamos a enseñarte a hacer <b>una masa de pizza donde nos libramos de la harina de trigo</b> y con ello de las calorías que normalmente tiene. Hay varias opciones, pero la que hoy te presentamos tiene una consistencia tan ligera como su nombre: la pizza nube.</p>
+
+        <div class="list-style">
+        <h2 id="info">Pizza nube, tan ligera como su nombre</h2>
+      <p>¿Cómo hacer una pizza sin harina de trigo? La solución esta vez la encontramos en un ingrediente muy común en nuestras cocinas: el huevo. Y más concretamente en sus claras. Lo que haremos será <b>montar las claras al punto de nieve</b>, con lo que conseguiremos una masa con una textura muy ligera. Para mejorar su sabor, en la receta completa de la pizza nube que puedes ver aquí te contamos un par de trucos, aunque ya te adelantamos que la cosa va de especias.</p>
+      <p>Por lo que respecta a los <i>toppings</i> de la pizza puedes usar los que más te gusten. En este caso haremos una sencilla <b>pizza de jamón y champiñones</b>, pero por supuesto eres libre de escoger los ingredientes que más te gusten. Si necesitas ideas esta recopilación de las mejores recetas de pizzas puede orientarte un poco.</p>
+      <img src="../IMG/r2.1.webp" alt="Imatge 1">
+      </div>
+
+      <h2 id="ingredientes">Ingredientes</h2>
+      <ul>
+        <li>4 claras de huevo</li>
+        <li>Sal</li>
+        <li>1 cucharada de maicena</li>
+        <li>Especias al gusto (orégano, albahaca, ajo en polvo...)</li>
+        <li>Pimienta negra molida</li>
+        <li>4 o 5 cucharadas de salsa de tomate, salsa napolitana o salsa marinara</li>
+        <li>100 g de queso mozzarella</li>
+        <li>2 lonchas de jamón cocido</li>
+        <li>3 champiñones</li>
+        <li>Albahaca fresca para decorar</li>
+      </ul>
+
+      <h2 id="pasos">Pasos a paso</h2>
+      <ol>
+        <li>Pon en un bol 4 claras de huevo con un poco de sal y bate con varillas para montarlas al punto de nieve.</li>
+        <li>Añade poco a poco 1 cucharada de maicena y tus especias favoritas. Salpimenta.</li>
+        <li>Con una espátula o cuchara, extiende con cuidado la mezcla sobre una bandeja de horno forrada con papel de hornear.</li>
+        <li>Precalienta el horno a 180 ºC con calor arriba y abajo. Cuando esté listo, hornea la masa entre 10 y 15 minutos hasta que esté dorada y firme.</li>
+        <li>Saca la base cocida del horno, extiende la salsa de tomate, añade más especias si quieres y pon 100 g de queso mozzarella y los ingredientes que hayas elegido, en este caso 2 lonchas de jamón troceadas y 3 champiñones laminados.</li>
+        <li>Hornea otros 10-15 minutos más a 180 ºC.</li>
+        <li>Servir con albahaca fresca.</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>

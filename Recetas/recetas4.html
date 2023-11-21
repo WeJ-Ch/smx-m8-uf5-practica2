@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      padding-top: 50px;
+      background-color: #f5f5dc;
+      margin: 0;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(169, 169, 169, 0.7);
+      z-index: 3;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .navbar-title {
+      color: black;
+      font-size: 1.5em;
+      margin: 0;
+      border-bottom: 1px solid black;
+    }
+
+    .navbar-links {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .navbar-links a {
+      color: Red;
+      text-decoration: none;
+      font-size: 1em;
+      font-weight: bolder;
+      padding-bottom: 2px;
+      transition: transform 0.3s;
+    }
+
+    .navbar-links a:hover {
+      transform: scale(1.1);
+    }
+
+    .hide-navbar {
+      display: none;
+    }
+
+    .receta-lista {
+      padding: 30px;
+    }
+
+    .receta-item {
+      text-align: left;
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+
+    .receta-item h2 + .receta-item p {
+      margin: 20px 0;
+    }
+
+    .receta-item h2 {
+      font-size: 2.5em;
+    }
+
+    .receta-item img {
+      width: auto;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .list-style {
+      list-style-type: circle;
+    }
+  </style>
+  <title>HORMIGAS SUBEN AL ÁRBOL</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <h1 class="navbar-title"style="color: black; font-size: 3em; text-align: center">HORMIGAS SUBEN AL ÁRBOL</h1>
+    <div class="navbar-links">
+      <a href="#intro">Introducción</a>
+      <a href="#info">Información de la receta</a>
+      <a href="#ingredientes">Ingredientes</a>
+      <a href="#pasos">Pasos a seguir</a>
+      <a href="#resumen">Resumen fácil de preparación</a>
+      <a href="../index.html">Volver a la página principal</a>
+    </div>
+  </div>
+
+  <div class="receta-lista">
+    <div class="receta-item">
+      <h2 id="intro" style="margin-top: 40px">Introducción</h2>
+      <p><span style="font-size: 2em; font-weight: bold">L</span>os restaurantes de <b>comida china</b> empezaron a florecer en España hace ya varias décadas y se hicieron muy populares no solo por su exotismo, sino por sus platos saciantes y gustosos a buen precio. Hoy en día no hay ciudad, por pequeña que sea, que no tenga una o varias opciones de comida asiática en su oferta hostelera.</p>
+      <p>Pero ya es <i>vox populi</i> que las preparaciones más celebradas de estos restaurantes poco tienen que ver con la <b>gastronomía tradicional</b> del gigante asiático: los chinos, con su excelente instinto comercial, adaptaron su tipo de cocina al gusto occidental, y no se puede negar que su estrategia funcionó muy bien.</p>
+      <p>Hormigas subiendo al árbol podría ser un ejemplo de ello: en muchos restaurantes chinos, <b>este plato se termina delante del comensal</b>, sirviendo la salsa por encima de los fideos fritos que, al humedecerse, emiten un curioso sonido chisporroteante. Sin embargo, parece que esta práctica tiene más de <i>performance</i> que de tradición, y en China normalmente los fideos se terminan en el wok donde se cocina la salsa.</p>
+        <img src="../IMG/r4.1.webp" alt="Imatge 1">
+
+      <p>Sea como fuere, <b>es un plato muy sabroso</b> y sus ingredientes, lejos de ser exóticos, son bastante habituales, Además, es muy versátil pues cambiando el tipo de verduras y de carne, incluso omitiendo esta última, podemos obtener multitud de variantes de la misma receta.</p>
+      <p>Los fideos utilizados suelen ser fideos de judía mungo, también llamados de celofán, pero con fideos de arroz (que son más fáciles de encontrar) la receta sale muy bien. Si queremos una <b>versión más ligera</b>, en vez de freír los fideos podemos simplemente hidratarlos en agua caliente y escurrirlos muy bien antes de mezclarlos con la salsa. Quedarán más suaves de textura.</p>
+      <p>En cuanto al toque picante, en esta ocasión hemos utilizado salsa laoganma, disponible en tiendas de alimentación asiática, pero podemos sustituirla por cualquier otra <b>salsa picante</b>, copos de chile o simplemente omitirla.</p>
+
+      <img src="../IMG/r4.2.webp" alt="Imatge 2">
+
+
+        <div class="list-style">
+        <h2 id="info">Información de la receta</h2>
+      <li><b>Tiempo de preparación:</b> 15 minutos</li>
+      <li><b>Tiempo de cocinado:</b> 25 minutos</li>
+      <li><b>Tiempo total:</b> 40 minutos</li>
+      <li><b>Raciones:</b> 4</li>
+      <li><b>Categoría:</b> plato principal</li>
+      <li><b>Tipo de cocina:</b> china</li>
+      <li><b>Calorías por ración (kcal):</b> 1041</li>
+      </div>
+
+
+      <h2 id="ingredientes">Ingredientes de hormigas suben al árbol para 4 personas</h2>
+      <ul>
+        <li>300 g de filetes de lomo de cerdo</li>
+        <li>1 trocito de jengibre fresco</li>
+        <li>3 cucharadas de salsa de soja</li>
+        <li>1 cucharada de azúcar</li>
+        <li>4 cucharaditas de laoganma (opcional)</li>
+        <li>500 ml de aceite de girasol</li>
+        <li>300 g de fideos de arroz</li>
+        <li>1 manojo de cebolletas chinas</li>
+        <li>1 pimiento verde tipo italiano</li>
+        <li>2 zanahorias</li>
+        <li>70 g de brécol</li>
+        <li>2 cucharaditas de almidón de maíz (maicena)</li>
+        <li>300 ml de caldo de carne o pollo</li>
+      </ul>
+
+      <img src="../IMG/r4.3.webp" alt="Imatge 3">
+
+      <h2 id="pasos">Pasos a seguir</h2>
+      <ol>
+        <li>Picamos 300 g de filetes de lomo de cerdo en trocitos muy pequeños, como si fuesen para un tartar.</li>
+        <img src="../IMG/r4.4.webp" alt="Imatge 4">
+        <li>Pelamos y rallamos 1 trocito de jengibre fresco.</li>
+        <img src="../IMG/r4.5.webp" alt="Imatge 5">
+        <li>Mezclamos en un bol grande 3 cucharadas de salsa de soja, 1 cucharada de azúcar, 4 cucharaditas de laoganma (si nos gusta el picante) y el jengibre rallado.</li>
+        <img src="../IMG/r4.6.webp" alt="Imatge 6">
+        <li>Añadimos la carne al bol, removemos bien y la dejamos macerar mientras continuamos con la receta.</li>
+        <img src="../IMG/r4.7.webp" alt="Imatge 7">
+        <li>Ponemos en un wok o sartén honda 500 ml de aceite de girasol. Lo calentamos sin que se queme y vamos friendo en él 300 g de fideos de arroz, en cuatro o cinco tandas, hasta que se hinchen y queden crujientes. Los fideos al freírse aumentan mucho su volumen, por eso es importante freírlos por tandas. Los ponemos a escurrir en una rejilla.</li>
+        <img src="../IMG/r4.8.webp" alt="Imatge 8">
+        <li>Picamos finamente 1 manojo de cebolletas chinas, reservando las partes más verdes para la decoración final.</li>
+        <img src="../IMG/r4.9.webp" alt="Imatge 9">
+        <li>Picamos también lo más fino posible 1 pimiento verde, 2 zanahorias peladas y 70 g de flores de brécol.</li>
+        <img src="../IMG/r4.10.webp" alt="Imatge 10">
+        <li>Retiramos el aceite del wok y dejamos una pequeña cantidad para preparar el resto de ingredientes. Lo calentamos a fuego fuerte y doramos rápidamente la carne con su jugo de maceración. Cuando tome color, la retiramos.</li>
+        <img src="../IMG/r4.11.webp" alt="Imatge 11">
+        <li>A continuación, sofreímos las verduras picadas a fuego fuerte para que conserven cierta firmeza. Si es necesario, podemos añadir algo más de aceite. Cuando estén listas, devolvemos la carne al wok y mezclamos bien.</li>
+        <img src="../IMG/r4.12.webp" alt="Imatge 12">
+        <li>En un cuenco con un poco del caldo o agua caliente, disolvemos 2 cucharaditas de almidón de maíz.</li>
+        <img src="../IMG/r4.13.webp" alt="Imatge 13">
+        <li>Agregamos el almidón disuelto al wok junto con 300 ml de caldo de carne o pollo. Cocinamos a fuego medio durante unos minutos, removiendo de vez en cuando.</li>
+        <img src="../IMG/r4.14.webp" alt="Imatge 14">
+        <li>Finalmente, añadimos los fideos al wok y dejamos que se cocinen unos minutos, removiendo cuidadosamente hasta que queden integrados en la salsa. Si nos quedan muy secos, podemos añadir algo más de caldo o agua caliente.</li>
+        <img src="../IMG/r4.15.webp" alt="Imatge 15">
+        <li>Disponemos los fideos con su salsa en una fuente de servir y echamos por encima las partes verdes de las cebolletas que habíamos reservado. Servimos recién hecho.</li>
+        <img src="../IMG/r4.16.webp" alt="Imatge 16">
+      </ol>
+
+
+      <h2 id="resumen">Resumen fácil de preparación</h2>
+      <ol>
+        <li>Picamos muy pequeñito el lomo de cerdo</li>
+        <li>Pelamos y rallamos el jengibre</li>
+        <li>Ponemos en un bol el jengibre, salsa de soja, azúcar y salsa picante</li>
+        <li>Mezclamos la carne con este aliño y la reservamos</li>
+        <li>Freímos por tandas los fideos</li>
+        <li>Picamos finamente las cebolletas, reservando las partes verdes</li>
+        <li>Picamos el pimiento verde, las zanahorias y el brécol</li>
+        <li>Doramos la carne en el wok con un poco de aceite y reservamos</li>
+        <li>Sofreímos las verduras en el mismo wok y agregamos la carne</li>
+        <li>Desleímos el almidón en un poco de caldo o agua caliente</li>
+        <li>Añadimos al wok el almidón y el resto del caldo y cocinamos unos minutos</li>
+        <li>Incorporamos los fideos fritos y esperamos a que se integren en la salsa</li>
+        <li>Servimos con las partes verdes de la cebolleta por encima</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+/* 重置整个文档的外边距和内边距 */
+body {
+  padding: 0;
+  background-color: #f5f5dc; /* 米色背景颜色 */
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  height: 100%;
+  position: relative; /* 添加相对定位 */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+/* receta-lista 样式 */
+div.receta-lista {
+  padding: 20px;
+}
+
+/* 添加标题样式 */
+.main-title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: black; /* 标题文字颜色 */
+}
+
+.receta-item {
+  background-color: white;
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  overflow: hidden; /* 保证图片在容器内 */
+  position: relative; /* 用于定位伪元素 */
+}
+
+/* 移除 receta1 右侧文字的下划线 */
+.receta-item a {
+  text-decoration: none;
+}
+
+/* receta-imagen 样式 */
+.receta-imagen {
+  width: 52%; /* 图片宽度占70% */
+  height: auto;
+  margin-right: 20px; /* 图片右侧边距 */
+  transition: transform 0.3s, filter 0.3s; /* 添加过渡效果 */
+}
+
+.receta-imagen:hover {
+  transform: scale(1.1);
+  filter: brightness(0.7); /* 降低亮度 */
+}
+
+/* receta-detalles 样式 */
+.receta-detalles {
+  display: flex;
+  align-items: center;
+}
+
+/* receta-texto 样式 */
+.receta-texto {
+  flex-grow: 1; /* 右侧文字占满剩余空间 */
+  padding: 20px;
+  text-align: center; /* 文字居中 */
+}
+
+.receta-texto:hover{
+  transform: scale(1.1); /* Escalar 10% */
+}
+
+/* 标题和描述样式 */
+.receta-texto h2 {
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  color: black; /* 标题文字颜色 */
+}
+
+.receta-texto p {
+  font-size: 1em;
+  color: black; /* 描述文字颜色 */
+}
+
+/* 新增的样式，放置 logo 的区域 */
+.logo-section {
+  display: flex;
+  justify-content: center; /* 居中 */
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid black; /* 横线隔离 */
+}
+
+.logo {
+  width: 300px; /* 修改为更大的宽度 */
+  height: auto; /* 自适应高度 */
+  margin-right: 20px;
+  cursor: pointer;
+}
